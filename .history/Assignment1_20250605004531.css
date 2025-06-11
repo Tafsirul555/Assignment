@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    width: 1088px;
+    height: 52px;
+    left: -127px;
+    padding-top: 11.14px;
+    padding-left: 100.23px;
+    padding-bottom:11.14px;
+Top
+11.14px
+Right
+100.23px
+Bottom
+
+Left
+
+}
+
+.navbar div,
+.navbar a{
+    display: inline-block;
+}
+
+.navbar a{
+    text-align: center;
+}
+
+.navbar .data{
+    float: right;
+}
+

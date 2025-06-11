@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    line-height: 1.6;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.yourstory.com/cs/wordpress/2015/10/yourstory-delhi-online-shopping.jpg?fm=png&auto=format&blur=500);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    min-width: 10px;
+    max-width: 100px;
+    @media screen and (min-width: 768px) {
+        
+    }
+}
+
+.SignUp {
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(234, 19, 80, 0.329);
+    color: black;
+    width: 410px;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.SignUp h1,p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input, select{
+    margin-bottom: 5px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+
+.SignUp p{
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+}
+
+button{
+    padding: 10px;
+    /* background-color: rgba(205, 25, 25, 0.765); */
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    /* background-color: rgb(104, 4, 4); */
+    color: black;
+    border: none;
+    background-color: rgba(164, 153, 153, 0.929);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select[id="divisions"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; 
+}
+
+input[type="radio"]{
+    width: 25%;
+}
+
+select[name="Country Code"]{
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.AlreadyLogin a{
+    color: red;
+    padding: 5px;
+}
+
+.AlreadyLogin{
+    margin-top: 5px;
+}
+
+.AlreadyLogin a:hover{
+    text-decoration:underline;
+    color: #e74c3c;
+}

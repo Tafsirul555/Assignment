@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    background-color: #fff;
+    padding: 15px 50px;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.nav-link{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.nav-link li{
+    display: inline-block;
+    margin: 0px 15px;
+    list-style: none;
+}
+
+.nav-link a{
+ color: #666;
+ font-size: 16px;
+ padding-right: 15px;
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+    color: black;
+}
+
+.SignUp {
+    float:right;
+}
+
+.hero-button1,
+.hero-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.hero-button1:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+.hero{
+    background-color: #f8f9fa;
+    padding: 150px 50px 50px;
+    text-align: center;
+}
+
+.hero-content{
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero-bt{
+    margin-top: 30px;
+}
+
+.hero-button1{
+    background-color: #007bff;
+    margin-right: 15px;
+}
+
+.hero-button2{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.hero-button2:hover{
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.hero-image{
+    margin-top: 40px;
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+button{
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 13px;
+    background-color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #e74c3c;
+    border: none;
+    color: ;
+}
+
+button a{
+    color: black;
+}
+
+button a:hover{
+    color: white;
+}
+
+.SignUp p{
+    display: inline-block;
+    color: black;
+    font-size: 10px;
+
+}

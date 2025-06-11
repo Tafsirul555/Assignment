@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 9vh;
+    /* left: -127px;
+    padding: 11.14px, 100.23px, 11.14px, 100.23px;
+    gap: 43.85px; */
+    color: #f5f5ff 0%;
+    box-shadow: 0px 2.78px 5.57px 0px rgba(171, 190, 209, 0.4);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .nav-link{
+    width: 254.1160888671875px;
+    height: 17px;
+    gap: 16.71px;
+    display: flex;
+    justify-content: center;
+} */
+
+.navbar div,
+.navbar a,
+.navbar h1,
+.navbar p{
+    display: inline-block;
+}
+
+.navbar div,
+.navbar a,
+.navbar p{
+    font-size: 2vh;
+}
+
+.navbar .logo,
+.navbar .nav-link{
+    margin-right: 290px;
+}
+
+.navbar .logo,
+.navbar .nav-link,
+.navbar .data,
+.navbar p{
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar .nav-link a{
+    padding-right: 3vw;
+}
+
+/* .navbar a{
+    text-align: center;
+}
+
+.navbar .data{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.Headerbar{
+    width: 100%;
+    height: 400px;
+    background: rgba(245, 247, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 27vw;
+    flex-wrap: wrap;
+}
+
+.Header-banner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 400px;
+}
+
+.bannerpic{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.Headerbar p,
+.Headerbar h1,
+.Headerbar a,
+.Headerbar img,
+.Header-banner,
+.bannerpic{
+    background: rgba(245, 247, 250, 1);
+}
+
+.Headerbar h1{
+    margin-top: 80px;
+}
+
+.Headerbar p,
+.Headerbar h1,
+.Headerbar a{
+    padding-bottom: 20px;
+}
+
+.Header-banner h1{
+    font:message-box;
+    font-weight:bold;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    letter-spacing: 0%;
+    color: rgba(77, 77, 77, 1);
+}
+
+.Header-banner p{
+    max-width: 100%;
+    word-wrap: break-word;
+    color: rgba(77, 77, 77, 1);
+}
+
+.Header-banner .headerbutton{
+    background-color: rgba(203, 213, 225, 1);
+    width: 103px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Header-banner a{
+    color: rgba(2, 6, 23, 1);
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width: 550px) {
+  .Headerbar {
+    flex-direction: column;       /* column করে দিলাম mobile এ */
+      /* উপর থেকে শুরু হবে */
+    height: auto;                 /* height auto করে দাও যাতে overflow না হয় */
+  }
+
+  .Header-banner h1,
+  .Header-banner p,
+  .Header-banner a{
+    display: flex;
+    justify-content: center;
+    align-items:;
+  }
+
+  .bannerpic img {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+/* .Header-banner{
+    margin-left: 100px;
+}
+.bannerpic{
+    margin-right: 100px;
+} */
+
+/* .Headerbar .headerbutton{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+
+} */

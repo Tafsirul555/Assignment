@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    line-height: 1.6;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.yourstory.com/cs/wordpress/2015/10/yourstory-delhi-online-shopping.jpg?fm=png&auto=format&blur=500);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp {
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(234, 19, 80, 0.329);
+    color: black;
+    width: 410px;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.SignUp h1,p{
+    text-align: center;
+}
+
+input, select{
+    margin-bottom: 6px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+
+button{
+    padding: 10px;
+    /* background-color: rgba(205, 25, 25, 0.765); */
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    /* background-color: rgb(104, 4, 4); */
+    color: black;
+    border: none;
+    background-color: rgba(164, 153, 153, 0.929);
+}
+
+input[], select
+input, select
+input, select
+input, select
+input, select

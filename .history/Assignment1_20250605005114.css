@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    width: 1088px;
+    height: 52px;
+    left: -127px;
+    padding-top: 11.14px;
+    padding-left: 100.23px;
+    padding-bottom: 11.14px;
+    padding-right: 100.23px;
+    gap: 43.85px;
+    color: #F5F5F 0%;
+    box-shadow: 0px 2.78px 5.57px 0px rgba(171, 190, 209, 0.4);
+}
+
+.navbar .nav-link
+
+.navbar div,
+.navbar a{
+    display: inline-block;
+}
+
+.navbar a{
+    text-align: center;
+}
+
+.navbar .data{
+    float: right;
+}
+
