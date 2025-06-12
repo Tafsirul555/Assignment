@@ -586,15 +586,9 @@ button{
 footer .Footerbar{
     width: 100%;
     height: 400px;
-    background-color: blue;
-}
-
-.Footerbar .Footerlogo,
-.Footerbar .Footercompany,
-.Footerbar .FooterSupport,
-.Footerbar .Footerdate{
-     display: flex;
-    align-items: center;
+    background-color: blue
+    display: flex;
+    justify-content: space-between;
 }
 
 .Footerbar .Footerlogo img{

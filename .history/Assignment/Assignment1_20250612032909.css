@@ -594,6 +594,7 @@ footer .Footerbar{
 .Footerbar .FooterSupport,
 .Footerbar .Footerdate{
      display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 

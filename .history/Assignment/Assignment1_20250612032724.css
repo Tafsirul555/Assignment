@@ -589,14 +589,6 @@ footer .Footerbar{
     background-color: blue;
 }
 
-.Footerbar .Footerlogo,
-.Footerbar .Footercompany,
-.Footerbar .FooterSupport,
-.Footerbar .Footerdate{
-     display: flex;
-    align-items: center;
-}
-
 .Footerbar .Footerlogo img{
     width: 30px;
     height: auto;

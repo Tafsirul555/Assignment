@@ -594,7 +594,8 @@ footer .Footerbar{
 .Footerbar .FooterSupport,
 .Footerbar .Footerdate{
      display: flex;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: ;
 }
 
 .Footerbar .Footerlogo img{

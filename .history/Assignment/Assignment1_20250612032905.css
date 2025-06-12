@@ -593,8 +593,7 @@ footer .Footerbar{
 .Footerbar .Footercompany,
 .Footerbar .FooterSupport,
 .Footerbar .Footerdate{
-     display: flex;
-    align-items: center;
+    
 }
 
 .Footerbar .Footerlogo img{

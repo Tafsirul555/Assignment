@@ -564,22 +564,22 @@ button{
     cursor: pointer;
 }
 
-.Contact button:hover{
+button:hover{
     /* background-color: rgb(104, 4, 4); */
     color: black;
     border: none;
     background-color: rgba(164, 153, 153, 0.929);
 }
 
-.Contact input[type="text"],
-.Contact input[type="email"],
-.Contact textarea[name="Comment"]{
+input[type="text"],
+input[type="email"],
+textarea[name="Comment"]{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px; 
 }
 
-.Contact textarea[name="Comment"]{
+textarea[name="Comment"]{
     margin-top: 10px;
 }
 
@@ -587,14 +587,9 @@ footer .Footerbar{
     width: 100%;
     height: 400px;
     background-color: blue;
-}
-
-.Footerbar .Footerlogo,
-.Footerbar .Footercompany,
-.Footerbar .FooterSupport,
-.Footerbar .Footerdate{
-     display: flex;
-    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Footerbar .Footerlogo img{
@@ -610,5 +605,5 @@ footer .Footerbar{
 .Footerbar .Footerdate img{
     width: 20px;
     height: auto;
-    filter: invert(1);
+    
 }

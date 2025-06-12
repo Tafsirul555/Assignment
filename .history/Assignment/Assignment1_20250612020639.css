@@ -511,13 +511,12 @@ article img{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(203, 213, 225, 0.85);
-    margin-top: 100px;
 }
 
 .Contact img{
     width: 250px;
     height: auto;
-    margin-left: 200px;
+    margin-left: 60px;
 }
 
 .Contact-Form{
@@ -529,7 +528,6 @@ article img{
     padding: 20px;
     border-radius: 5px;
     position: relative;
-    margin-right: 200px;
 }
 
 .Contact h1,p{
@@ -564,51 +562,21 @@ button{
     cursor: pointer;
 }
 
-.Contact button:hover{
+button:hover{
     /* background-color: rgb(104, 4, 4); */
     color: black;
     border: none;
     background-color: rgba(164, 153, 153, 0.929);
 }
 
-.Contact input[type="text"],
-.Contact input[type="email"],
-.Contact textarea[name="Comment"]{
+input[type="text"],
+input[type="email"],
+textarea[name="Comment"]{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px; 
 }
 
-.Contact textarea[name="Comment"]{
+textarea[name="Comment"]{
     margin-top: 10px;
-}
-
-footer .Footerbar{
-    width: 100%;
-    height: 400px;
-    background-color: blue;
-}
-
-.Footerbar .Footerlogo,
-.Footerbar .Footercompany,
-.Footerbar .FooterSupport,
-.Footerbar .Footerdate{
-     display: flex;
-    align-items: center;
-}
-
-.Footerbar .Footerlogo img{
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.Footerbar .Footerlogo p{
-    display: inline-block;
-}
-
-.Footerbar .Footerdate img{
-    width: 20px;
-    height: auto;
-    filter: invert(1);
 }
