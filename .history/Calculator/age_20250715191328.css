@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    height: 100%;
+    background: #d9d339;
+}
+
+.agecalcu{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  
+}
+
+.agecalcu .Date{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.agecalcu .Date button,
+.agecalcu .Date input{
+    margin-top: 28px;
+    font-size: 20px;
+    padding: 6px;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.agecalcu .Date input{
+    width: 300px;
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+}
+
+.agecalcu .Date button{
+    width: 110px;
+    background-color: #d9d339 ;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.yeardate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yeardate div {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  display: grid;
+  text-align: center;
+  box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+.yeardate div p{
+    margin-top: 20%;
+}

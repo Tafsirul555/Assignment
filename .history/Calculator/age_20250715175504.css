@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    height: 100%;
+    background: #d9d339;
+}
+
+.agecalcu{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  
+}
+
+.agecalcu .Date{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.agecalcu .Date input{
+    width: 200px;
+}
